@@ -32,6 +32,17 @@ body {
   text-transform: uppercase;
 }
 
+.controls {
+  transition: 1s all;
+  border: 5px solid #000;
+  margin: 20px;
+  opacity: 0.3;
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
 .mult_num {
   margin: 5px auto;
 }
